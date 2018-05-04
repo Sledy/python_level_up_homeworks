@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cities</title>
+</head>
+<body>
+  <ul>
+    List of cities in alphabetical order
+    {% for city in cities %}
+      <li>{{ city['city'] }}</li>
+    {% endfor %}
+  </ul>
+</body>

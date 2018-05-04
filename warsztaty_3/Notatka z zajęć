@@ -1,0 +1,40 @@
+- Importowanie modułu odbywa się tylko raz w przypadku dekoratorów
+
+- Dekoratory mogą zostać użyte do tworzenia cache'u, tworzenia zmiennych prywantnych (niepolecane)
+
+- Co możemy dekorować:
+	- funckje
+	- klasy (bardzo problematyczne)
+
+- Czym możemy dekorować - obiekty callable
+
+- Gdy użyjemy '@' do dekorwania, nie będzie dostępna funkcja w postacie nieudekorowanej
+
+- Jak działa dekorator : uruchamiamy funkcję, która bierze jako argument funkcję dekorowaną
+
+- W pythonie funkcje można przekazywać jako obiekty
+
+- __name__ jako atrybut funkcji który zwraca jej nazwę
+
+- Funkcja play_music nie została wykonana gdyż dekorator oczekiwał argumentu, a jeśli nie powiemy że play_music zwaraca konkretny obiekt, zwróci None co wywołuje błąd.
+
+- Możemy pobrać wartość globalną, lecz nie możemy jej zmieniać wewnątrz funkcji, trzeba użyć 'global', ale nie jest to polecane
+
+- Identyfikatorem zmiennej jest jej miejsce w pamięci.
+
+- Funkcje w pythonie niszczy zmiennej gdy w środku tej funkcji jest funkcja, która tą zmienną wykorzystuje.
+
+- 'nonlocal' zmienna jest zmienną, która jest poza zasięgiem biężącej funkcji, ale wewnątrz zewnętrznej funkcji
+
+- zmienną globalną można zmienić jeśli obiekt jest mutable
+
+- Gdy używamy paru dekoratorów, pierwszy od góry wykona się ostatni
+
+- *, key= 1 nie może zostać użyty argument pozycyjny
+
+- Pytania o dekorator często się pojawia o na rozmowach rektrutacyjynch.
+
+- W pythonie jest jeden konstruktor, 'new       
+
+- static method jest to metoda ktora nie informuje, w jakiej klasie jest umieszczona.
+
